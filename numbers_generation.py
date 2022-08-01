@@ -3,12 +3,19 @@ import time
 time_stamp = time.time()
 
 def somename():
-    number = int(time_stamp % 10)
+    number = int((time_stamp % 1000 - int(time_stamp % 1000)) * 1000)
     if number == 0:
-        number += 10
-    return (number)
+        number += 1000
+    return(number)
 
 print(somename())
+
+list = [1, 2, 3, 4]
+
+def somefunction(qweqwe):
+    return(len(qweqwe))
+
+print(somefunction(list))
 
 
 # TODO использовать для генерации не секунды, a милисекунды\нано\etc
