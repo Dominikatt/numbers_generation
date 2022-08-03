@@ -14,4 +14,12 @@ def number_generation():
 
     return int(''.join(map(str, res)))
 
+def add_letters():
+    # TODO запилить список латинских букв https://pythobyte.com/python-alphabet-76863/?ysclid=l6djge6cm3236271623
+    # TODO сделать генерацию списка из 5и букв
+    # TODO Выводить одной строкой
+    pass
+    return 42
+
 print(number_generation())
+print(add_letters())
