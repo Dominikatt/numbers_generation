@@ -32,6 +32,17 @@ def add_letters():
 
 print(''.join(map(str, add_letters())))
 
+def examole_1(numeric_from_example_2):
+    return 7-numeric_from_example_2
+
+def example_2(numeric):
+    return 43 - examole_1(numeric)
+
+print(example_2(2))
+
+
+# TODO превратить строки 6,7,8 и 24,25,26 в отдельную функцию. и вызывать ее внутри number_generation и add_letters.
+#  Длина ряда должна регулироваться передаваемым аргументом (см example)
 
 
 
